@@ -1,0 +1,22 @@
+Hit:8 http://deb.debian.org/debian bullseye InRelease                               
+Hit:9 http://deb.debian.org/debian bullseye-updates InRelease
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+All packages are up to date.
+root@debian11:/opt/debs# apt install google-chrome-stable
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  fonts-liberation libu2f-udev
+The following NEW packages will be installed:
+  fonts-liberation google-chrome-stable libu2f-udev
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 834 kB/94.8 MB of archives.
+After this operation, 320 MB of additional disk space will be used.
+Do you want to continue? [Y/n] n
+Abort.
+root@debian11:/opt/debs# 
+
+
